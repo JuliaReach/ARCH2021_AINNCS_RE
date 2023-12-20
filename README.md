@@ -1,15 +1,44 @@
-# ARCH2021 AI/NNCS
+# ARCH2021 AINNCS
 
-This is the repeatability evaluation (RE) package for the ARCH-COMP 2021
-category report: Artificial intelligence and neural network control systems
-(AINNCS) for continuous and hybrid systems plants of the 5th International
-Competition on Verifying Continuous and Hybrid Systems Friendly Competition
-(ARCH-COMP '21).
+This is the JuliaReach repeatability evaluation (RE) package for the ARCH-COMP
+2021 category report: Artificial Intelligence and Neural Network Control Systems
+(AINNCS) for Continuous and Hybrid Systems Plants of the 5th International
+Competition on Verifying Continuous and Hybrid Systems (ARCH-COMP '21).
+
+To cite the work, you can use:
+
+```
+@inproceedings{JohnsonLBFGSICWL21,
+  author    = {Taylor T. Johnson and
+               Diego Manzanas Lopez and
+               Luis Benet and
+               Marcelo Forets and
+               Sebasti{\'{a}}n Guadalupe and
+               Christian Schilling and
+               Radoslav Ivanov and
+               Taylor J. Carpenter and
+               James Weimer and
+               Insup Lee},
+  editor    = {Goran Frehse and
+               Matthias Althoff},
+  title     = {{ARCH-COMP21} Category Report: Artificial Intelligence and Neural
+               Network Control Systems {(AINNCS)} for Continuous and Hybrid Systems
+               Plants},
+  booktitle = {{ARCH}},
+  series    = {EPiC Series in Computing},
+  volume    = {80},
+  pages     = {90--119},
+  publisher = {EasyChair},
+  year      = {2021},
+  url       = {https://doi.org/10.29007/kfk9},
+  doi       = {10.29007/kfk9}
+}
+```
+
+## Installation
 
 *Note:* Running the full benchmark suite should take no more than two hours with
 a reasonable internet connection.
-
-## Installation
 
 There are two ways to install and run this RE: either using the Julia script or
 using the Docker script.
